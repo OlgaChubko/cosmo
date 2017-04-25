@@ -727,40 +727,40 @@
 
 /* List */
 
-	ol {
-		list-style: decimal;
-		margin: 0 0 2em 0;
-		padding-left: 1.25em;
-	}
+	/*ol {*/
+		/*list-style: decimal;*/
+		/*margin: 0 0 2em 0;*/
+		/*padding-left: 1.25em;*/
+	/*}*/
 
-		ol li {
-			padding-left: 0.25em;
-		}
+		/*ol li {*/
+			/*padding-left: 0.25em;*/
+		/*}*/
 
-	ul {
-		list-style: disc;
-		margin: 0 0 2em 0;
-		padding-left: 1em;
-	}
+	/*ul {*/
+		/*list-style: disc;*/
+		/*margin: 0 0 2em 0;*/
+		/*padding-left: 1em;*/
+	/*}*/
 
-		ul li {
-			padding-left: 0.5em;
-		}
+		/*ul li {*/
+			/*padding-left: 0.5em;*/
+		/*}*/
 
-		ul.alt {
-			list-style: none;
-			padding-left: 0;
-		}
+		/*ul.alt {*/
+			/*list-style: none;*/
+			/*padding-left: 0;*/
+		/*}*/
 
-			ul.alt li {
-				border-top: solid 1px;
-				padding: 0.5em 0;
-			}
+			/*ul.alt li {*/
+				/*border-top: solid 1px;*/
+				/*padding: 0.5em 0;*/
+			/*}*/
 
-				ul.alt li:first-child {
-					border-top: 0;
-					padding-top: 0;
-				}
+				/*ul.alt li:first-child {*/
+					/*border-top: 0;*/
+					/*padding-top: 0;*/
+				/*}*/
 
 		ul.icons {
 			cursor: default;
@@ -1406,7 +1406,18 @@
 		}
 
 /* Footer */
+#map{
+	margin: -7%;
+}
 
+.net{
+	display: inline-block;
+	margin: 10%;
+}
+
+.contact{
+	display: inline-block;
+}
 	#footer {
 		-moz-transition: bottom 0.2s ease;
 		-webkit-transition: bottom 0.2s ease;
@@ -1479,6 +1490,8 @@
 				#footer .inner .copyright h3 {
 					color: #FFF;
 					font-size: 1.75em;
+					margin-top: -15%;
+					font-family: 'Arsenal', sans-serif;
 				}
 
 				#footer .inner .content a,
@@ -1486,20 +1499,20 @@
 					color: #FFF;
 				}
 
-					#footer .inner .content a:hover,
-					#footer .inner .copyright a:hover {
-						color: rgba(255, 255, 255, 0.75);
-					}
+					/*#footer .inner .content a:hover,*/
+					/*#footer .inner .copyright a:hover {*/
+						/*color: rgba(255, 255, 255, 0.75);*/
+					/*}*/
 
-				#footer .inner .content p,
-				#footer .inner .copyright p {
-					margin: 0;
-				}
+				/*#footer .inner .content p,*/
+				/*#footer .inner .copyright p {*/
+					/*margin: 0;*/
+				/*}*/
 
-			#footer .inner .copyright ul {
-				border-bottom: 1px solid rgba(255, 255, 255, 0.15);
-				padding-bottom: 1em;
-			}
+			/*#footer .inner .copyright ul {*/
+				/*border-bottom: 1px solid rgba(255, 255, 255, 0.15);*/
+				/*padding-bottom: 1em;*/
+			/*}*/
 
 		@media screen and (max-width: 980px) {
 
