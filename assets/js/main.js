@@ -61,8 +61,6 @@
 
 			});
 
-
-
 		// Footer.
 			$footer.each( function() {
 
@@ -80,4 +78,3 @@
 	});
 
 })(jQuery);
-
