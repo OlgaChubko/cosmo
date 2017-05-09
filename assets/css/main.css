@@ -3,13 +3,6 @@
 @import url('https://fonts.googleapis.com/css?family=Arsenal|Istok+Web|Open+Sans|Philosopher&subset=cyrillic');
 
 
-/*
-	Radius by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
-*/
-
-/* Reset */
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
@@ -734,40 +727,40 @@
 
 /* List */
 
-	ol {
-		list-style: decimal;
-		margin: 0 0 2em 0;
-		padding-left: 1.25em;
-	}
+	/*ol {*/
+		/*list-style: decimal;*/
+		/*margin: 0 0 2em 0;*/
+		/*padding-left: 1.25em;*/
+	/*}*/
 
-		ol li {
-			padding-left: 0.25em;
-		}
+		/*ol li {*/
+			/*padding-left: 0.25em;*/
+		/*}*/
 
-	ul {
-		list-style: disc;
-		margin: 0 0 2em 0;
-		padding-left: 1em;
-	}
+	/*ul {*/
+		/*list-style: disc;*/
+		/*margin: 0 0 2em 0;*/
+		/*padding-left: 1em;*/
+	/*}*/
 
-		ul li {
-			padding-left: 0.5em;
-		}
+		/*ul li {*/
+			/*padding-left: 0.5em;*/
+		/*}*/
 
-		ul.alt {
-			list-style: none;
-			padding-left: 0;
-		}
+		/*ul.alt {*/
+			/*list-style: none;*/
+			/*padding-left: 0;*/
+		/*}*/
 
-			ul.alt li {
-				border-top: solid 1px;
-				padding: 0.5em 0;
-			}
+			/*ul.alt li {*/
+				/*border-top: solid 1px;*/
+				/*padding: 0.5em 0;*/
+			/*}*/
 
-				ul.alt li:first-child {
-					border-top: 0;
-					padding-top: 0;
-				}
+				/*ul.alt li:first-child {*/
+					/*border-top: 0;*/
+					/*padding-top: 0;*/
+				/*}*/
 
 		ul.icons {
 			cursor: default;
@@ -1413,7 +1406,18 @@
 		}
 
 /* Footer */
+#map{
+	margin: -7%;
+}
 
+.net{
+	display: inline-block;
+	margin: 10%;
+}
+
+.contact{
+	display: inline-block;
+}
 	#footer {
 		-moz-transition: bottom 0.2s ease;
 		-webkit-transition: bottom 0.2s ease;
@@ -1486,6 +1490,8 @@
 				#footer .inner .copyright h3 {
 					color: #FFF;
 					font-size: 1.75em;
+					margin-top: -15%;
+					font-family: 'Arsenal', sans-serif;
 				}
 
 				#footer .inner .content a,
@@ -1493,20 +1499,20 @@
 					color: #FFF;
 				}
 
-					#footer .inner .content a:hover,
-					#footer .inner .copyright a:hover {
-						color: rgba(255, 255, 255, 0.75);
-					}
+					/*#footer .inner .content a:hover,*/
+					/*#footer .inner .copyright a:hover {*/
+						/*color: rgba(255, 255, 255, 0.75);*/
+					/*}*/
 
-				#footer .inner .content p,
-				#footer .inner .copyright p {
-					margin: 0;
-				}
+				/*#footer .inner .content p,*/
+				/*#footer .inner .copyright p {*/
+					/*margin: 0;*/
+				/*}*/
 
-			#footer .inner .copyright ul {
-				border-bottom: 1px solid rgba(255, 255, 255, 0.15);
-				padding-bottom: 1em;
-			}
+			/*#footer .inner .copyright ul {*/
+				/*border-bottom: 1px solid rgba(255, 255, 255, 0.15);*/
+				/*padding-bottom: 1em;*/
+			/*}*/
 
 		@media screen and (max-width: 980px) {
 
